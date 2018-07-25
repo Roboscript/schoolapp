@@ -1,0 +1,28 @@
+{
+  "name": "schoolapp",
+  "version": "1.0.0",
+  "description": "School system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Center for Digital Innovation (CDI)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "multer": "^1.3.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
