@@ -55,7 +55,7 @@ router.post('/register', function(req, res){
       if(err) throw err;
     });
     req.flash('success_msg', 'You are now registered and can login');
-    res.redirect('/users/login');
+    res.redirect('index');
   }
 });
 
